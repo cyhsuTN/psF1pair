@@ -3,7 +3,7 @@ psF1pair
 
 ## Installation
 
-Download psF1pair_0.1.0.tar.gz and locally install it, or execute the
+Execute the
 following code:
 
 ``` r
