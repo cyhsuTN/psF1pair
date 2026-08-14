@@ -1,0 +1,13 @@
+Package: psF1pair
+Type: Package
+Title: Statistical Inference and Power Analysis for Comparative F.beta Scores in Paired-decision Setting
+Version: 0.1.0
+Date: 2026-06-02
+Authors@R: person("XXXXX", "XXX", role = c("aut", "cre"), email =
+        "XXXXX")
+Description: Statistical inference and power analysis for comparative F_beta scores in paired-decision setting.
+License: GPL-2 | GPL-3
+Imports: Rcpp (>= 1.1.0), stats, utils, Matrix 
+LinkingTo: Rcpp
+Encoding: UTF-8
+RoxygenNote: 7.3.3
