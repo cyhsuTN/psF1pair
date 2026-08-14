@@ -369,25 +369,26 @@ skin cancer images (540 malignant and 1460 benign).</p>
 ## FRCNN_M    42    39
 ## FRCNN_B   153  1226</code></pre>
 <p>Convert to long-shift data with 10 random class instances shown.</p>
-<pre class="r"><code>data &lt;- data.frame(Actual=rep(NA,sum(dlist$Actual_M)+sum(dlist$Actual_B)),
+<pre class="r"><code>data &lt;- data.frame(Actual=rep(NA,(411+39+55+35)+(42+39+153+1226)),
                    FRCNN=NA,
                    BCD=NA)
-data$Actual &lt;- c(rep(1, sum(dlist$Actual_M)), rep(0, sum(dlist$Actual_B)))
+data$Actual &lt;- c(rep(1, (411+39+55+35)), rep(0, (42+39+153+1226)))
 data$FRCNN &lt;- c(rep(1, 411+39), rep(0, 55+35), rep(1, 42+39), rep(0, 153+1226))
 data$BCD &lt;- c(rep(1, 411), rep(0,39), rep(1, 55), rep(0,35),
              rep(1, 42), rep(0,39), rep(1, 153), rep(0,1226))</code></pre>
-<pre class="r"><code>data[sample(1:nrow(data),10),]</code></pre>
+<pre class="r"><code>set.seed(12345)
+data[sample(1:nrow(data),10),]</code></pre>
 <pre><code>##      Actual FRCNN BCD
-## 197       1     1   1
-## 758       0     0   1
-## 884       0     0   0
-## 1459      0     0   0
-## 676       0     0   1
-## 181       1     1   1
-## 16        1     1   1
-## 945       0     0   0
-## 637       0     0   1
-## 782       0     0   0</code></pre>
+## 142       1     1   1
+## 51        1     1   1
+## 720       0     0   1
+## 730       0     0   1
+## 1244      0     0   0
+## 664       0     0   1
+## 826       0     0   0
+## 605       0     1   0
+## 587       0     1   0
+## 1376      0     0   0</code></pre>
 </div>
 <div id="psf1pair" class="section level2">
 <h2>psF1pair</h2>
