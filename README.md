@@ -1,8 +1,5 @@
 psF1pair
 ================
-Chih-Yuan Hsu
-
-July/17/2026
 
 ## Installation
 
