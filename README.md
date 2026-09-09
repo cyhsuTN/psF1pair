@@ -21,4 +21,4 @@ library(psF1pair)
 - [psF1pair](https://htmlpreview.github.io/?https://github.com/cyhsuTN/psF1pair/blob/main/Tutorial/Tutorial_psF1pair_v2.html)
 
 ## References
-Hsu CY, Liu Q, Shyr Y. Statistical Inference and Power Analysis for Comparative $F_1$ and $F_{\beta}$ Scores under Correlated Classifier Pairs. medRxiv (preprint). 2026
+Hsu CY, Liu Q, Shyr Y. A Unified Framework for Statistical Inference and Study Design of Comparative $F_1$ and $F_{\beta}$ Scores under Paired Classifier Evaluations. medRxiv (preprint). 2026. doi: https://doi.org/10.64898/2026.07.15.26358166
