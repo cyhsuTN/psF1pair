@@ -8,7 +8,7 @@ following code:
 
 ``` r
 library(devtools)
-install_github("cyhsuTN/psF1pair")
+install_github("cyhsuTN/psF1pair") # Ver. 0.2.0
 ```
 
 ## Usage
